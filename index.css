@@ -80,19 +80,19 @@
     margin: auto;
     color: rgb(255, 255, 255);
     font-weight: 600;
-    font-size: 2.2vh;
+    font-size: 2.1vh;
 }
 .user-tweet-name-grey {
-    font-size: 2vh;
+    font-size: 1.9vh;
     font-weight: 500;
     color: rgb(190, 188, 176);
 }
 .message {
     margin: auto;
     margin-left: 2vw;
-    margin-top: 2.2vh;
+    margin-top: 1vh;
     font-weight: 500;
-    font-size: 1.8vh;
+    font-size: 2.1vh;
     color: #ffffff;
 }
 .interactions {
