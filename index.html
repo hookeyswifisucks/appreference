@@ -374,10 +374,10 @@
             </div>
             <div class="bottom-container">
                 <ul class="nav">
-                    <li><a><img id="home-button" class="img-icon" onclick="bottomNav(this, document.getElementById('home-page'));" src="https://img.icons8.com/material/96/ffffff/home--v5.png"></a></li>
-                    <li><a><img id="discover-button" class="img-icon" onclick="bottomNav(this);" src="https://img.icons8.com/ios-glyphs/90/ffffff/detective.png"></a></li>
-                    <li><a><img id="notifications-button" class="img-icon" onclick="bottomNav(this);" src="https://img.icons8.com/android/96/ffffff/appointment-reminders.png"></a></li>
-                    <li><a><img id="profile-button" class="img-icon active" onclick="bottomNav(this, document.getElementById('profile-page'));" src="https://img.icons8.com/material/24/ffffff/user-male-circle--v1.png"></a></li>
+                    <li onclick="bottomNav(document.getElementById('home-button'), document.getElementById('home-page'));" ><a><img id="home-button" class="img-icon active" src="https://img.icons8.com/material/96/ffffff/home--v5.png"></a></li>
+                    <li onclick="bottomNav(document.getElementById('discover-button'), document.getElementById('profile-page'));"><a><img id="discover-button" class="img-icon" src="https://img.icons8.com/ios-glyphs/90/ffffff/detective.png"></a></li>
+                    <li onclick="bottomNav(document.getElementById('notifications-button'), document.getElementById('profile-page'));"><a><img id="notifications-button" class="img-icon" src="https://img.icons8.com/android/96/ffffff/appointment-reminders.png"></a></li>
+                    <li onclick="bottomNav(document.getElementById('profile-button'), document.getElementById('profile-page'));"><a><img id="profile-button" class="img-icon" src="https://img.icons8.com/material/24/ffffff/user-male-circle--v1.png"></a></li>
                 </ul>
             </div>
         </div>
