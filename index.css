@@ -70,12 +70,16 @@
     border-bottom: 2px solid rgb(53, 53, 53);
 }
 .post-left {
-    width: 14%;
+    width: 15%;
     margin-left: 0%;
 }
-.post-right {
+.post-center {
     margin-left: 4%;
-    width:80%;
+    width:70%;
+}
+.post-right {
+    width: 9%;
+    margin-left: 2%;
 }
 .user-tweet-name {
     margin: auto;
@@ -85,23 +89,22 @@
 }
 .user-tweet-name-grey {
     font-size: 1.8vh;
-    font-weight: 300;
+    font-weight: 400;
     color: rgb(190, 188, 176);
 }
 .message {
     margin: auto;
     margin-left: 1vw;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2vh;
     color: #ffffff;
 }
 .interactions {
-    padding-top: 1.5vh;
+    padding-top: 1vh;
 }
 .interactions li {
     display: block;
-    float: left;
-    width: 33%;
+    padding: .5vh;
 }
 .interactions li a {
     display: block;
