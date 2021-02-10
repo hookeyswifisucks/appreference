@@ -195,3 +195,8 @@
     padding-bottom: 2vh;
     border-bottom: 2px solid rgb(53, 53, 53);
 }
+.discovery-container {
+    color: white;
+    font-size: 5vh;
+    margin-top: 10vh;
+}
