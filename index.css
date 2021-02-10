@@ -81,6 +81,14 @@
     width: 10%;
     margin-left: 1%;
 }
+.profile-post-left {
+    width: 85%;
+    margin-left: 3%;
+}
+.profile-post-right {
+    width: 10%;
+    margin-right: 2%;
+}
 .user-tweet-name {
     margin: auto;
     color: rgb(255, 255, 255);
@@ -124,7 +132,8 @@
     border-radius: 50%;
 }
 .active {
-    border-bottom: 7px solid white;
+    width: 12vw;
+    height: auto;
 }
 .inactive-page {
     display: none;
@@ -147,7 +156,7 @@
 }
 .profile-right {
     margin-left: 6%;
-    width:70%;
+    width: 70%;
 }
 .profile-icon-profile {
     width: 23vw;
@@ -193,8 +202,4 @@
 .profile-outer {
     padding-bottom: 2vh;
     border-bottom: 2px solid rgb(53, 53, 53);
-}
-.profile-post {
-    margin-left: 5%;
-    width:90%;
 }
